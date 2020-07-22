@@ -20,30 +20,30 @@ def calculate():
 
 
 label8 = Label(window, text="BILLING SYSTEM", font="times 30 bold")
-label8.place(x=550, y=70)
+label8.place(x=350, y=20,anchor="center`")
 
 # ---------------------menu selection----------------------------------
 
 label1 = Label(window, text="MENU", font="times 28 bold")
-label1.place(x=550, y=100)
+label1.place(x=550, y=70)
 
 label2 = Label(window, text="aalo paratha Rs 30", font="times 28 bold")
-label2.place(x=550, y=200)
+label2.place(x=450, y=120)
 
 label3 = Label(window, text="samosa  Rs 12", font="times 28 bold")
-label3.place(x=550, y=70)
+label3.place(x=450, y=150)
 
 label4 = Label(window, text="pani puri  Rs 20", font="times 28 bold")
-label4.place(x=550, y=70)
+label4.place(x=450, y=180)
 
 label5 = Label(window, text="fried rice Rs 40",  font="times 28 bold")
-label5.place(x=550, y=70)
+label5.place(x=450, y=210)
 
 label6 = Label(window, text="vada pav   Rs 15", font="times 28 bold")
-label6.place(x=550, y=70)
+label6.place(x=450, y=240)
 
 label7 = Label(window, text="Tea  Rs 10", font="times 28 bold")
-label7.place(x=550, y=70)
+label7.place(x=450, y=270)
 
 # -----------------billing section----------------------------------
 
@@ -57,22 +57,22 @@ e1 = Entry(window)
 e1.place(x=20, y=150)
 
 label11 = Label(window, text="samosa", font="times 18 bold")
-label11.place(x=20, y=120)
+label11.place(x=250, y=120)
 
 e2 = Entry(window)
-e2.place(x=20, y=150)
+e2.place(x=250, y=150)
 
 label12 = Label(window, text="pani puri", font="times 18 bold")
-label12.place(x=20, y=120)
+label12.place(x=20, y=200)
 
 e3 = Entry(window)
-e3.place(x=20, y=150)
+e3.place(x=20, y=230)
 
 label13 = Label(window, text="fried rice", font="times 18 bold")
-label13.place(x=20, y=120)
+label13.place(x=250, y=200)
 
 e4 = Entry(window)
-e4.place(x=20, y=150)
+e4.place(x=250, y=150)
 
 label14 = Label(window, text="vada pav", font="times 18 bold")
 label14.place(x=20, y=120)
@@ -81,10 +81,10 @@ e5 = Entry(window)
 e5.place(x=20, y=150)
 
 label15 = Label(window, text="Tea", font="times 18 bold")
-label15.place(x=20, y=120)
+label15.place(x=250, y=200)
 
 e6 = Entry(window)
-e6.place(x=20, y=150)
+e6.place(x=250, y=230)
 
 
 b2 = Button(window, text='bill', width=20, command=calculate)
