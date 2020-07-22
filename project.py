@@ -1,7 +1,7 @@
 from tkinter import *
 
 window=Tk()
-window.geometery("700x500")
+window.geometry("700x500")
 
 def calculate():
     aalo_paratha=e1.get()
