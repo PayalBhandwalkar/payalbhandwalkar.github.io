@@ -28,22 +28,22 @@ label1 = Label(window, text="MENU", font="times 28 bold")
 label1.place(x=550, y=70)
 
 label2 = Label(window, text="aalo paratha Rs 30", font="times 28 bold")
-label2.place(x=450, y=120)
+label2.place(x=450, y=130)
 
 label3 = Label(window, text="samosa  Rs 12", font="times 28 bold")
-label3.place(x=450, y=150)
+label3.place(x=450, y=190)
 
 label4 = Label(window, text="pani puri  Rs 20", font="times 28 bold")
-label4.place(x=450, y=180)
+label4.place(x=450, y=220)
 
 label5 = Label(window, text="fried rice Rs 40",  font="times 28 bold")
-label5.place(x=450, y=210)
+label5.place(x=450, y=250)
 
 label6 = Label(window, text="vada pav   Rs 15", font="times 28 bold")
-label6.place(x=450, y=240)
+label6.place(x=450, y=280)
 
 label7 = Label(window, text="Tea  Rs 10", font="times 28 bold")
-label7.place(x=450, y=270)
+label7.place(x=450, y=300)
 
 # -----------------billing section----------------------------------
 
@@ -72,23 +72,23 @@ label13 = Label(window, text="fried rice", font="times 18 bold")
 label13.place(x=250, y=200)
 
 e4 = Entry(window)
-e4.place(x=250, y=150)
+e4.place(x=250, y=230)
 
 label14 = Label(window, text="vada pav", font="times 18 bold")
-label14.place(x=20, y=120)
+label14.place(x=20, y=250)
 
 e5 = Entry(window)
-e5.place(x=20, y=150)
+e5.place(x=20, y=280)
 
 label15 = Label(window, text="Tea", font="times 18 bold")
-label15.place(x=250, y=200)
+label15.place(x=250, y=250)
 
 e6 = Entry(window)
-e6.place(x=250, y=230)
+e6.place(x=250, y=280)
 
 
 b2 = Button(window, text='bill', width=20, command=calculate)
-b2.place(x=100, y=300)
+b2.place(x=100, y=350)
 
 
 window.mainloop()
