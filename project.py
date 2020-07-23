@@ -1,7 +1,7 @@
 from tkinter import *
 
 window = Tk()
-window.geometry("1000x1000")
+window.geometry("1000x500")
 
 
 def calculate():
@@ -11,39 +11,36 @@ def calculate():
     pani_puri = e4.get()
     vada_pav = e5.get()
     Tea = e6.get()
-    print(type(Tea))
-    total = (int(aalo_paratha)*30) + (int(samosa) * 12) + \
-        (int(fried_rice)*40) + (int(pani_puri)*20),
-    (int(vada_pav)*15), (int(Tea)*10)
-    label16 = Label(window, text="total", font="times 28 bold")
-    label16.place(x=100, y=360)
+    total = (int(aalo_paratha)*30) + (int(samosa) * 12) + (int(fried_rice)*40) + (int(pani_puri)*20) + (int(vada_pav)*15)+ (int(Tea)*10)
+    label16 = Label(window, text="Total Price : "+ str(total), font="times 28 bold")
+    label16.place(x=100, y=420)
 
 
 label8 = Label(window, text="BILLING SYSTEM", font="times 30 bold")
-label8.place(x=350, y=20,anchor="center`")
+label8.place(x=350, y=20,anchor="center")
 
 # ---------------------menu selection----------------------------------
 
 label1 = Label(window, text="MENU", font="times 28 bold")
-label1.place(x=550, y=70)
+label1.place(x=550, y=60)
 
-label2 = Label(window, text="aalo paratha Rs 30", font="times 28 bold")
-label2.place(x=450, y=130)
+label2 = Label(window, text="Aalo paratha Rs 30", font="times 28 bold")
+label2.place(x=450, y=120)
 
-label3 = Label(window, text="samosa  Rs 12", font="times 28 bold")
-label3.place(x=450, y=190)
+label3 = Label(window, text="Samosa  Rs 12", font="times 28 bold")
+label3.place(x=450, y=180)
 
-label4 = Label(window, text="pani puri  Rs 20", font="times 28 bold")
-label4.place(x=450, y=220)
+label4 = Label(window, text="Pani Puri  Rs 20", font="times 28 bold")
+label4.place(x=450, y=240)
 
-label5 = Label(window, text="fried rice Rs 40",  font="times 28 bold")
-label5.place(x=450, y=250)
+label5 = Label(window, text="Fried rice Rs 40",  font="times 28 bold")
+label5.place(x=450, y=300)
 
-label6 = Label(window, text="vada pav   Rs 15", font="times 28 bold")
-label6.place(x=450, y=280)
+label6 = Label(window, text="Vada pav   Rs 15", font="times 28 bold")
+label6.place(x=450, y=360)
 
 label7 = Label(window, text="Tea  Rs 10", font="times 28 bold")
-label7.place(x=450, y=300)
+label7.place(x=450, y=420)
 
 # -----------------billing section----------------------------------
 
