@@ -16,7 +16,7 @@ def calculate():
     label16.place(x=100, y=420)
 
 
-label8 = Label(window, text="BILLING SYSTEM", font="times 30 bold")
+label8 = Label(window, text="BILLING SYSTEM!", font="times 30 bold")
 label8.place(x=350, y=20,anchor="center")
 
 # ---------------------menu selection----------------------------------
