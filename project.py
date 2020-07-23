@@ -47,7 +47,7 @@ label7.place(x=450, y=300)
 
 # -----------------billing section----------------------------------
 
-label9 = Label(window, text="select the items", font="times 20 bold")
+label9 = Label(window, text="SELECT THE ITEMS", font="times 20 bold")
 label9.place(x=70, y=70)
 
 label10 = Label(window, text="aalo paratha", font="times 18 bold")
